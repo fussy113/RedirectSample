@@ -1,0 +1,15 @@
+{
+  "name": "RedirectSample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt": "^2.12.1"
+  }
+}
