@@ -8,7 +8,6 @@ WORKDIR /var/www
 COPY ./package.json ./package.json
 COPY ./yarn.lock ./yarn.lock
 
-RUN yarn install && \
-    yarn build
+RUN yarn install
 
-CMD ["yarn", "start"]
+CMD ["yarn", "dev"]
